@@ -287,41 +287,10 @@ div.text-input {
                     <!-- /ko -->
                 </div>
             </div>
-            <!-- ko compose: _parent.LoginExtrasView --><div class="login-nav-wrap" data-view="views/guest/login/nav" data-active-view="true" style="">
-    <a href="#" data-bind="click: NavigateToMaps" class="map-link">
-        <div class="map-wrap">
-            <div class="map-icon">
-                <div class="map-icon-g icon-map-g icon-map-g-size"></div>
-            </div>
-            <span class="map-text"> <!--ko text:GetString('NearestAkbank')-->En Yakın Akbank<!--/ko--></span>
-            <div class="map-arrow">
-                <div class="icon-arrow-right-vdg icon-arrow-right-vdg-size arrow-right"></div>
-            </div>
-        </div>
-    </a>
-    <a href="#" data-bind="click: NavigateToCurrencyConverter" class="extras-link">
-        <div class="extras-wrap">
-            <div class="extras-icon">
-                <div class="extras-icon-g icon-currency-g icon-currency-g-size"></div>
-            </div>
-            <span class="extras-text extras-has-sub-text"><!--ko text:GetString('CurrencyConverter')-->Döviz Kuru Hesaplama<!--/ko--><br><span class="usd-login-text" data-bind="text: loginCurrCombined()">1 USD = 33,8110 TL</span>&nbsp;</span>
-            <div class="extras-arrow">
-                <div class="icon-arrow-right-vdg icon-arrow-right-vdg-size arrow-right"></div>
-            </div>
-        </div>
-    </a>
+            <!-- ko compose: _parent.LoginExtrasView --> 
+    
     <!-- ko if:!IsHybrid() || IsHybridTablet()-->
-    <a href="#" data-bind="click: NavigateToDirectLoanApplication" class="extras-link desktop-site">
-        <div class="extras-wrap">
-            <div class="extras-icon">
    
-            </div>
-            <span class="extras-text"><!--ko text:GetString('DirectLoanApplication')-->Hızlı Kredi Başvurusu<!--/ko--></span>
-            <div class="extras-arrow">
-                <div class="icon-arrow-right-vdg icon-arrow-right-vdg-size arrow-right"></div>
-            </div>
-        </div>
-    </a>   
      <!--/ko-->
 </div><!--/ko-->
         </div>
